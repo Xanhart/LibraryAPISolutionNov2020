@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryAPI</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryAPI.Controllers.BooksController.GetBookDetails(System.Int32)">
+            <summary>
+            This allows you to look up a book from our inventory by providing the ID of the book
+            </summary>
+            <param name="id">The id of the book</param>
+            <returns>The book that matches that request, or a 404</returns>
+        </member>
+    </members>
+</doc>
